@@ -1,8 +1,8 @@
 {
   "name": "@tsw38/custom-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
-  "main": "./lib.index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "parcel build src/**/*.js --no-cache",
     "watch": "parcel src/**/*.js --no-cache",
