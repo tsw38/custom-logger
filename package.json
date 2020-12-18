@@ -1,5 +1,5 @@
 {
-  "name": "@tsw38/customlogger",
+  "name": "@tsw38/custom-logger",
   "version": "1.0.0",
   "description": "",
   "main": "./lib.index.js",
@@ -8,7 +8,7 @@
     "watch": "parcel src/**/*.js --no-cache",
     "publish": "npm publish --access public"
   },
-  "author": "Tyler Williams <tyler.scott.14@gmail.com>",
+  "author": "Tyler Williams  <tyler.scott.14@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "parcel-bundler": "1.12.4",
