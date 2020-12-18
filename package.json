@@ -1,24 +1,26 @@
 {
-  "name": "customlogger",
+  "name": "@tsw38/customlogger",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./lib.index.js",
   "scripts": {
-    "build": "parcel build src/**/*.js",
-    "watch": "parcel src/**/*.js",
+    "build": "parcel build src/**/*.js --no-cache",
+    "watch": "parcel src/**/*.js --no-cache",
     "publish": "npm publish --access public"
   },
-  "author": "",
+  "author": "Tyler Williams <tyler.scott.14@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-static-files-copy": "^2.5.0"
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-static-files-copy": "2.5.0"
   },
   "staticFiles": {
-    "staticPath": [{
-      "staticPath": "./src",
-      "staticOutDir": "../lib"
-    }],
+    "staticPath": [
+      {
+        "staticPath": "./src",
+        "staticOutDir": "../lib"
+      }
+    ],
     "watcherGlob": "**"
   }
 }
