@@ -6,24 +6,20 @@ ___
 
 #### How to use:
 
-```
-const logger = require('@tsw38/custom-logger');
+```node
+const {log} = require('@tsw38/custom-logger');
 
-const Log = new logger({header: "<Heading>", delimitor: "|" }).log;
-
-Log('Hello World', 'info');
-
+log('Hello World');
 ```
 
-Log options:
-`error` - logs the message to the console in red
-`info` - logs the message to the console in blue
-`warning` - logs the message to the console in yellow
-`success` - logs the message to the console in green
+#### Log options:
+The second argument is an options object:
+
+| Name      | Type                                       | Default value |
+| --------- | ------------------------------------------ | ------------- |
+| header    | string                                     | ""            |
+| delimitor | string                                     | "="           |
+| type      | `"error" | "info" | "warning" | "success"` | "info"        |
 
 
-Sample Images:
-* error
-![Error Message](./assets/sample-error.png)
-* info
-![Error Message](./assets/sample-info.png)
+<img src="https://github.com/tsw38/custom-logger/raw/main/assets/sample.png">

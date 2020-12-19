@@ -1,28 +1,13 @@
 {
   "name": "@tsw38/custom-logger",
-  "version": "1.0.6",
-  "description": "",
+  "version": "2.0.0",
+  "description": "Custom console logger",
   "main": "./lib/index.js",
   "scripts": {
-    "build": "parcel build src/**/*.js --no-cache",
-    "watch": "parcel src/**/*.js --no-cache",
     "publish": "npm publish --access public"
   },
   "author": "Tyler Williams  <tyler.scott.14@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "parcel-bundler": "1.12.4",
-    "parcel-plugin-static-files-copy": "2.5.0"
-  },
-  "staticFiles": {
-    "staticPath": [
-      {
-        "staticPath": "./src",
-        "staticOutDir": "../lib"
-      }
-    ],
-    "watcherGlob": "**"
-  },
   "dependencies": {
     "chalk": "4.1.0"
   }
