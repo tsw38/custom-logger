@@ -21,5 +21,6 @@ The second argument is an options object:
 | delimitor | string                                     | "="           |
 | type      | `"error" | "info" | "warning" | "success"` | "info"        |
 
+<br />
 
 <img src="https://github.com/tsw38/custom-logger/raw/main/assets/sample.png">
