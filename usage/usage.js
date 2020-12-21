@@ -1,4 +1,4 @@
-const { log } = require("@tsw38/custom-logger");
+const { log } = require("../lib/index");
 
 log("Info message", {
   header: "Info Header",
