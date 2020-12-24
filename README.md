@@ -19,7 +19,7 @@ The second argument is an options object:
 | --------- | ------------------------------------------ | ------------- |
 | header    | string                                     | ""            |
 | delimitor | string                                     | "="           |
-| type      | `"error" | "info" | "warning" | "success"` | "info"        |
+| type      | `'error' | 'info' | 'warning' | 'success'` | "info"        |
 
 <br />
 
